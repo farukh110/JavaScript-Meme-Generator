@@ -1,0 +1,161 @@
+body {
+  padding-top: 5rem;
+  background-color: #C9C9C9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-danger.fixed-top 
+{
+    background: #ED5167 !important;
+    box-shadow: 0px 3px 11px 0px #575555 !important; 
+    border-radius: 0px !important;
+}
+
+.goog-te-gadget-simple 
+{
+    background-color: #fff;
+    border-radius: 10px;
+    border-left: 1px solid #d5d5d500 !important;
+    border-top: 1px solid #9b9b9b00 !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+    border-right: 1px solid #d5d5d500 !important;
+    font-size: 10pt;
+    display: inline-block;
+    padding-top: 5px !important;
+    padding-bottom: 2px;
+    cursor: pointer;
+    height: 30px;  
+    
+}
+
+img#start-image {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+	border:6px dashed #ce2e2e;
+}
+
+canvas#meme {
+    border: 6px dashed #ce2e2e;
+    /*position: absolute;*/
+}
+
+.setting-value {
+	text-align: center;
+	font-weight: bold;
+}
+
+#meme
+{
+	width: 100%;
+	height: 500px;
+}
+
+.choosefilediv
+{
+   position: relative;
+   overflow: hidden;
+}
+
+.image_input 
+{
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.btn-upload-img
+{
+    border-radius: 10px;
+    background: #ED5167;
+    border:2px solid #000;	
+    color: #07040B;
+    font-weight: bold;
+}
+
+.btn-upload-img:hover
+{
+    cursor: pointer;
+}
+
+.btn-undo 
+{
+    border-radius: 10px;
+    background: #fff;
+}
+
+.btn-redo 
+{
+    border-radius: 10px;
+    background: #fff;
+}
+
+input#text_top 
+{
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input#text_bottom
+{
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;	
+}
+
+input#text_top::placeholder,
+input#text_bottom::placeholder
+{
+	color: #000;
+}
+
+.card
+{
+    display: none;
+}
+.topdiv,.bottomdiv 
+{
+    display: none;
+}
+
+.emojinput 
+{
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.emoji-wysiwyg-editor:empty:before 
+{
+    content: attr(placeholder);
+    color: #000;
+}
+
+button#dropdownMenuButton 
+{
+    border-radius: 10px !important;
+    border: 2px solid #000 !important; 
+    background: #fff !important;
+}
+
+.dropdown-menu.cartoon_dropdown_btn.show 
+{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.btn-download
+{
+	color: #000;
+	height: 50px;
+	background: #ED5167;
+	font-weight: bold;
+	font-size: 25px;
+	border: none;
+	border-radius: 10px;
+}
+
